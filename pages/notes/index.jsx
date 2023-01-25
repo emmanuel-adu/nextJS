@@ -8,7 +8,7 @@ export default () => {
 
   return (
     <div>
-      <h1>Notes</h1>
+      <h1> Notes </h1>
 
       <ul>
         {notes.map(note => (
