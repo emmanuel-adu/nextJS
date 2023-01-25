@@ -1,13 +1,7 @@
-const { PHASE_PRODUCTION_SERVER, PHASE_DEVELOPMENT_SERVER } = require('next/constants')
+const nextEnv = require('next-env')
+const dotenvLoad = require('dotenv-load')
 
-module.exports = (phase, { defaultConfig }) => {
-  if (phase === PHASE_PRODUCTION_SERVER) {
-    console.log("I'm in prod mode")
+dotenvLoad()
 
-    return defaultConfig
-  }
-
-  console.log("I'm in dev mode")
-
-  return defaultConfig
-} 
+const withNextEnv = nextEnv()
+module.exports = withNextEnv()

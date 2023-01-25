@@ -433,6 +433,25 @@
   "resolved" "https://registry.npmjs.org/@types/parse-json/-/parse-json-4.0.0.tgz"
   "version" "4.0.0"
 
+"@types/prop-types@*":
+  "integrity" "sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w=="
+  "resolved" "https://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.5.tgz"
+  "version" "15.7.5"
+
+"@types/react@^18.0.27":
+  "integrity" "sha512-3vtRKHgVxu3Jp9t718R9BuzoD4NcQ8YJ5XRzsSKxNDiDonD2MXIT1TmSkenxuCycZJoQT5d2vE8LwWJxBC1gmA=="
+  "resolved" "https://registry.npmjs.org/@types/react/-/react-18.0.27.tgz"
+  "version" "18.0.27"
+  dependencies:
+    "@types/prop-types" "*"
+    "@types/scheduler" "*"
+    "csstype" "^3.0.2"
+
+"@types/scheduler@*":
+  "integrity" "sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew=="
+  "resolved" "https://registry.npmjs.org/@types/scheduler/-/scheduler-0.16.2.tgz"
+  "version" "0.16.2"
+
 "ansi-styles@^3.2.1":
   "integrity" "sha512-VT0ZI6kZRdTh8YyJw3SMbYm/u+NqfsAxEpWO0Pf9sq8/e94WxxOpPKx9FR1FlyCtOVDNOQ+8ntlqFxiRc+r5qA=="
   "resolved" "https://registry.npmjs.org/ansi-styles/-/ansi-styles-3.2.1.tgz"
@@ -583,6 +602,11 @@
   "resolved" "https://registry.npmjs.org/csstype/-/csstype-2.6.11.tgz"
   "version" "2.6.11"
 
+"csstype@^3.0.2":
+  "integrity" "sha512-DJR/VvkAvSZW9bTouZue2sSxDwdTN92uHjqeKVm+0dAqdfNykRzQ95tay8aXMBAAPpUiq4Qcug2L7neoRh2Egw=="
+  "resolved" "https://registry.npmjs.org/csstype/-/csstype-3.1.1.tgz"
+  "version" "3.1.1"
+
 "debug@2.6.9":
   "integrity" "sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA=="
   "resolved" "https://registry.npmjs.org/debug/-/debug-2.6.9.tgz"
@@ -605,24 +629,24 @@
   "resolved" "https://registry.npmjs.org/destroy/-/destroy-1.2.0.tgz"
   "version" "1.2.0"
 
-"dotenv-expand@^4.2.0":
-  "integrity" "sha1-3vHxyl1gWdJKdm5YeULCEQbOEnU= sha512-pHWVt6L/YkqbBCMb1hG6e7oO0WdMhlapDIibl+BZ9PncVE3i+G77uvNr8GUxW2ItSituOK8QOYC9oOJjwWD94A=="
-  "resolved" "https://registry.npmjs.org/dotenv-expand/-/dotenv-expand-4.2.0.tgz"
-  "version" "4.2.0"
+"dotenv-expand@^8.0.2":
+  "integrity" "sha512-SErOMvge0ZUyWd5B0NXMQlDkN+8r+HhVUsxgOO7IoPDOdDRD2JjExpN6y3KnFR66jsJMwSn1pqIivhU5rcJiNg=="
+  "resolved" "https://registry.npmjs.org/dotenv-expand/-/dotenv-expand-8.0.3.tgz"
+  "version" "8.0.3"
 
-"dotenv-load@^2.0.0":
-  "integrity" "sha512-A6XbeIi3LZcNgH1MxBvAw1ZamYr9GosuDHiqqlMsOVeJnRUNY/8gDJ1NvQiSkVZwiscSyBNKsXXmP3xGezweVA=="
-  "resolved" "https://registry.npmjs.org/dotenv-load/-/dotenv-load-2.0.0.tgz"
-  "version" "2.0.0"
+"dotenv-load@^2.0.1":
+  "integrity" "sha512-MNuXfspporu/oj1UeQuf88Zm7WjkUgGRH4z0pGyVqm6B924v+CdfQLzusyux+bvOssK7p+0ULYXn764pnGVRSA=="
+  "resolved" "https://registry.npmjs.org/dotenv-load/-/dotenv-load-2.0.1.tgz"
+  "version" "2.0.1"
   dependencies:
-    "dotenv" "^5.0.0"
-    "dotenv-expand" "^4.2.0"
-    "shelljs" "^0.8.1"
+    "dotenv" "^16.0.0"
+    "dotenv-expand" "^8.0.2"
+    "shelljs" "^0.8.5"
 
-"dotenv@^5.0.0":
-  "integrity" "sha512-4As8uPrjfwb7VXC+WnLCbXK7y+Ueb2B3zgNCePYfhxS1PYeaO1YTeplffTEcbfLhvFNGLAz90VvJs9yomG7bow=="
-  "resolved" "https://registry.npmjs.org/dotenv/-/dotenv-5.0.1.tgz"
-  "version" "5.0.1"
+"dotenv@^16.0.0":
+  "integrity" "sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ=="
+  "resolved" "https://registry.npmjs.org/dotenv/-/dotenv-16.0.3.tgz"
+  "version" "16.0.3"
 
 "ee-first@1.1.1":
   "integrity" "sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow=="
@@ -1018,7 +1042,7 @@
   "resolved" "https://registry.npmjs.org/setprototypeof/-/setprototypeof-1.2.0.tgz"
   "version" "1.2.0"
 
-"shelljs@^0.8.1":
+"shelljs@^0.8.5":
   "integrity" "sha512-TiwcRcrkhHvbrZbnRcFYMLl30Dfov3HKqzp5tO5b4pt6G/SezKcYhmDg15zXVBswHmctSAQKznqNW2LO5tTDow=="
   "resolved" "https://registry.npmjs.org/shelljs/-/shelljs-0.8.5.tgz"
   "version" "0.8.5"
@@ -1125,6 +1149,11 @@
   dependencies:
     "media-typer" "0.3.0"
     "mime-types" "~2.1.24"
+
+"typescript@^4.9.4":
+  "integrity" "sha512-Uz+dTXYzxXXbsFpM86Wh3dKCxrQqUcVMxwU54orwlJjOpO3ao8L7j5lH+dWfTwgCwIuM9GQ2kvVotzYJMXTBZg=="
+  "resolved" "https://registry.npmjs.org/typescript/-/typescript-4.9.4.tgz"
+  "version" "4.9.4"
 
 "unpipe@1.0.0":
   "integrity" "sha512-pjy2bYhSsufwWlKwPc+l3cN7+wuJlK6uz0YdJEOlQDbl6jo/YlPi4mb8agUkVC8BF7V8NuzeyPNqRksA3hztKQ=="
