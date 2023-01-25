@@ -164,9 +164,6 @@ pages
     [id].jsx
 ```
 
-
-![200](../Attachments/Pasted%20image%2020230124172105.png)
-
 We can access the `id` param inside our page component using the `useRouter` hook from the `next/route` module. This comes for free with Next.js.
 
 ```jsx
