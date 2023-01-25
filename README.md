@@ -1,15 +1,11 @@
-Documentation is based on this website: 
-- https://hendrixer.github.io/nextjs-course/intro
-
-NextJS official documentation:
-- https://nextjs.org/docs
-- https://github.com/Hendrixer/nextjs-course-app/tree/master
-
 # What is Next.js
 
 Next.js is a complete full-stack framework for modern apps that was created by the brilliant team at [Vercel](https://vercel.com/). *React is used as the view library of choice.* 
 
-Here are some of the highlights that you get for free:
+- Documentation is based on this [website](https://hendrixer.github.io/nextjs-course/intro)
+[NextJS official documentation](https://nextjs.org/docs)
+
+## Highlights of Next.JS
 
 - Dev build system
 - Production build system
