@@ -1,4 +1,3 @@
-// pages/api/note/[id].js
 import nc from 'next-connect'
 import notes from '../../../src/data/data'
 

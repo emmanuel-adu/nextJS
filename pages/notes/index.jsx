@@ -2,9 +2,8 @@ import React from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 
-export default () => {
+export default ({notes}) => {
   const router = useRouter()
-  const notes = Array.from({length: 15}, (_, i) => ({ id: i, title: `Note: ${i}` }))
 
   return (
     <div>
@@ -25,4 +24,12 @@ export default () => {
       </button>
     </div>
   )
+}
+
+export async function getServerSideProps() {
+  const res = await fetch(`http://localhost:3000/api/note/`)
+  const {data} = await res.json()
+  return {
+    props: {notes: data}
+  }
 }
